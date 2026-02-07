@@ -1,19 +1,25 @@
 # Blinkenstein
 
-Blinkenstein is a KiCad PCB design based on a few simple electronic components, 
-intended to be a simple PCB test project, for example, 
-for testing home boards or for companies offering professional PCB services.
+Blinkenstein is a KiCad PCB design based on a handful of simple electronic components.
+It is intended as a small PCB test project — useful for testing homemade boards
+or for companies offering professional PCB manufacturing services.
 
-## How it works?
+## How it works
 
-Blinkenstein can be powered by a DC power supply with an output voltage between 7-12V; 
-it's worth adding a safety margin, so I recommend a 9V power supply. 
-The circuit doesn't draw much current; about 100mA is sufficient. 
-The circuit operates by alternating the color of the LEDs from `RED -> GREEN -> BLUE -> YELLOW`. 
-It's not a disco light, but rather a toy, because despite having eight LEDs, 
-only two can illuminate at a time. The heart of the circuit is the CD4017, 
-whose input receives 'inverted pulses' from a generator based on the **tunneling effect**. 
-The signal passes to a NOT gate with a _Schmitt input_, which 'rectifies' the waveform.
+Blinkenstein can be powered by a DC power supply with an output voltage of 7–12 V.
+A 9 V supply is recommended as a safe and convenient choice.
+The circuit draws very little current; around 100 mA is sufficient.
 
-You will find the necessary files in this folder:
-> _**[Click here](/konstantynopolitanczykowianeczka_zamieszkujaca_konstantynopol)**_
+The circuit operates by cycling the LED colors in the following order:
+`RED → GREEN → BLUE → YELLOW`.
+Despite having eight LEDs, only two can be illuminated at the same time,
+so this is more of a toy than a disco light.
+
+At the heart of the circuit is a CD4017 decade counter.
+Its clock input receives inverted pulses from a generator based on the
+**tunneling effect**.
+The signal then passes through a NOT gate with a *Schmitt trigger input*,
+which cleans up the waveform.
+
+You will find all required files in this folder:
+> **[Click here](/konstantynopolitanczykowianeczka_zamieszkujaca_konstantynopol)**

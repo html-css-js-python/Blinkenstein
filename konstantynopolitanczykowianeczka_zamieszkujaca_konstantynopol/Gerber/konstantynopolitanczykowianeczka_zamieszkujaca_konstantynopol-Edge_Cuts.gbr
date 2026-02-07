@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.2*%
+%TF.CreationDate,2026-02-07T14:26:08+01:00*%
+%TF.ProjectId,konstantynopolitanczykowianeczka_zamieszkujaca_konstantynopol,6b6f6e73-7461-46e7-9479-6e6f706f6c69,1*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.2) date 2026-02-07 14:26:08*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X72134968Y-43750000D02*
+X127634968Y-43750000D01*
+X127634968Y-100500000D01*
+X72134968Y-100500000D01*
+X72134968Y-43750000D01*
+M02*
